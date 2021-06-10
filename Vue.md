@@ -1,4 +1,4 @@
-# vue知识点整理
+# Vue知识点整理
 
 ### 注意事项
 - 以下整理基于MacOS开发环境进行编写
@@ -10,7 +10,7 @@
 https://shimo.im/docs/eavXX1p7YiQMv9oS/read
 IDEA 索引及自动配置比较方便，但正常代码异常爆红比较多；旗舰版IDEA会收费
 
-安装VSCode+LiveServer配合使用  
+安装VSCode+Vue插件配合使用  
 VSCode在一些自动索引及插件引导安装上体验不甚好，但在前端领域比较流行
 
 个人建议 以上两种都要会
@@ -34,7 +34,7 @@ brew install rbenv
 https://www.jianshu.com/p/bbe6d6860881
  ``` 
 
-- Vue
+- Vue Cli构建工具
 ```
 安装Vue Cli
 npm install -g @vue/cli
