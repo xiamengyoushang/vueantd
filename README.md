@@ -1,2 +1,2 @@
 # vueantd
-vue+antd+axios前端精炼模板
+vue+antd+axios前端定制模板
