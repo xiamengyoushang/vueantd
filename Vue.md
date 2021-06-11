@@ -41,7 +41,7 @@ npm install -g @vue/cli
 https://cli.vuejs.org/zh/guide/prototyping.html
 
 注意：按我这个脚本安装，官网那个貌似有点问题；
-另外我目前自用的版本是vue3，实测经过配置后可以兼容到IE11
+另外我目前自用的版本是vue2.x，实测经过配置后可以兼容到IE11
 ```
 ### 脚本相关 
 ```
@@ -158,6 +158,20 @@ Vuex
 组件间的传参,消息,事件管理(props, emit/on)
 vuex单向数据流概念,
 view->actions->state->view
+```
+### 专业名词及技术点
+```
+Babel                   js语法转换器，主要用于兼容旧版本浏览器等
+TypeScript              js的超集，前端类的面向对象编程语言
+PWA                     渐进式WEB应用
+Router                  页面路由管理
+Vuex                    状态管理模式
+CSS Pre-processors      Css预处理器
+Linker / Formatter      代码格式检测器
+Unit Testing            单元测试
+E2E Testing             端到端测试
+Router: history mode    url不带#，浏览器history.pushState API 
+Router: hash mode       url带#
 ```
 
 ### 项目结构及框架
