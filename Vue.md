@@ -96,6 +96,7 @@ Vue全家桶包括：vuex、vue-router、vue-resource 还有构建工具vue-cli
 ```
 - Vue常用属性
 ```
+el    vue实例挂载的元素节点
 props 类似构造函数，可以接收一些初始化变量
 data  声明一些全局变量
 created 初始化方法
