@@ -4,7 +4,7 @@
       width="220">
     <div class="logo">
       <img src="../assets/logo.svg" alt="">
-      物流管理系统
+      后台管理系统
     </div>
     <a-menu theme="dark" mode="inline">
       <a-sub-menu v-for="(item, index) in menus" :key="index">

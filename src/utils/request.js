@@ -3,7 +3,7 @@ import {message} from "ant-design-vue";
 import router from "../router";
 
 // 测试域名
-const BaseUrl = 'http://192.168.0.191:8118';
+const BaseUrl = 'http://127.0.0.1:8118';
 
 const service = request.create({
     baseURL: BaseUrl,

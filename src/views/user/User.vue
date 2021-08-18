@@ -138,6 +138,7 @@ import UserCreate from "../../components/UserCreate/UserCreate";
                 query_content:"",
                 queryList:[
                     {id:0,title:"用户名称"},
+                    {id:1,title:"用户角色"},
                 ],
                 columns,
                 datalist: [],
@@ -196,6 +197,7 @@ import UserCreate from "../../components/UserCreate/UserCreate";
                         DeleteUser(data).then(res=>{
                             if (res["code"] == 0) {
                                 _this.$message.success("删除成功");
+                                _this.getUserList();
                             } else {
                                 _this.$message.warning(res["message"]);
                             }

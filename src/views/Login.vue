@@ -3,9 +3,9 @@
         <div>
             <div class="box-header">
                 <img class="logo" src="../assets/logo.svg" alt=""/>
-                <div class="box-header-t">物流管理系统</div>
+                <div class="box-header-t">后台管理系统</div>
             </div>
-            <div class="title">物流管理系统 - 用户登录</div>
+            <div class="title">后台管理系统 - 用户登录</div>
             <a-tabs @change="tabClick" default-active-key="1" :tabBarStyle="{ textAlign: 'center' }">
                 <a-tab-pane key="1" tab="密码登陆">
                     <a-input
@@ -56,7 +56,7 @@
             <a-button :loading="submitLoading" class="submit-btn" type="primary" @click="submitLogin">
                 确认登陆
             </a-button>
-            <div class="des">物流管理系统 - Copyright 2021 PENG</div>
+            <div class="des">后台管理系统 - Copyright 2021 PENG</div>
         </div>
     </div>
 </template>

@@ -73,11 +73,18 @@ export default {
         cancelText: '取消',
         okText: '确定',
         onOk() {
-          Logout().then(res=>{});
-          _this.$store.commit("REMOVE_INFO");
-          _this.$router.push('/login');
+          Logout().then(res=>{
+            _this.exitToLogin();
+          }).catch(e=>{
+            _this.exitToLogin();
+          });
         },
       });
+    },
+
+    exitToLogin(){
+      this.$store.commit("REMOVE_INFO");
+      this.$router.push('/login');
     }
 
   }
